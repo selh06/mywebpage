@@ -124,7 +124,7 @@ img {
       </div>
     </div>
   </body>
-<h2>Here's a few my family worked on.</h2>
+<h2>Here's a few my family worked on:</h2>
 <div class="image-container">
       <div>
         <img src="holiday.jpg" alt="Photo 1" width="100">
@@ -133,3 +133,11 @@ img {
         <img src="babylon.jpeg" alt="Photo 2" width="100">
       </div>
     </div>
+  container {
+      display: flex;
+      gap: 10px; /* Adds space between images */
+    }
+    .container img {
+      width: 50%; /* For two images, each takes half the space */
+      /* Or use flex: 1; for equal distribution */
+    }
